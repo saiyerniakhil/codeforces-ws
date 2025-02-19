@@ -22,6 +22,12 @@ def mapCoordinates(arr):
                 coords.append((i, j))
     return coords 
 
+def direction(arr):
+    top = 0 # -1 for bottom and 1 for top
+    left = 0 # -1 for right and 1 for right
+    
+    
+
 def distance(point1, point2):
     x1,y1 = point1
     x2, y2 = point2
